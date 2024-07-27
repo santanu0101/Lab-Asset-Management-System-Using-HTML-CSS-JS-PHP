@@ -1,0 +1,104 @@
+
+.action{
+    position: fixed;
+    right: 78px;
+    top:-2px;
+    
+} 
+.action .profile{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+}
+.action .profile img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+
+}
+.action .menu{
+    background-color: #236ca3;
+    box-sizing:0 5px 25px rgba(0,0,0,0.1);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: absolute;
+    right: -10px;
+    width: 300px;
+    height: 350px;
+	transition: 1s opacity, 10ms height;
+    /* transition: 0.5s; */
+    top: 120px;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu:hover{
+    box-shadow: 0px 0px 10px rgb(85, 83, 83);
+}
+ .action .menu.active{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+.action .menu::before{
+    background-color:#236ca3;
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    transform:rotate(45deg);
+    top:-5px;
+    width: 20px;
+}
+.photo{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    height: 75px;
+    width: 75px;
+    border-radius: 35px;
+    border: 3px solid white;
+}
+.action .menu p{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+#name{
+    font-weight: bold;
+}
+#Manage_account{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    /* transition: 0.5s; */
+    cursor: pointer;
+}
+#Manage_account:hover{
+    box-shadow: 0px 0px 10px rgb(85, 83, 83);
+    color: black;
+    background: white;
+}
+#sign_out{
+    /* background: transparent; */
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#sign_out:hover{
+    box-shadow: 0px 0px 10px rgb(85, 83, 83);
+    color: black;
+    background: white;
+}

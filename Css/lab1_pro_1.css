@@ -1,0 +1,67 @@
+.page_body {
+    margin-left: 250px;
+}
+#Product_Details{
+    margin-left: 550px;
+    /* margin-left: 30px; */
+    color: rgb(243, 132, 132);
+    font-size: 1.1em;
+}
+table {
+    /* position: absolute; */
+    margin-left: 58px;
+    margin-top: 25px;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+td,
+th {
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+th {
+    background-color: #000000;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    font-weight: bolder;
+
+}
+
+tr {
+    width: 100%;
+    background-color: #aee0e6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+
+td .bad{
+    font-size: 1.3em;
+    color: red;
+}
+
+td .good{
+    font-size: 1.3em;
+    color: green;
+}
+
+hr{
+    margin-top: 25px;
+}
